@@ -4,9 +4,10 @@ Darklight Nova Core Issue: Files
 Issue for [Darklight Nova Core](https://github.com/darklight-studios/darklight-nova-core)
 
 ### Function
-The Files issue {what it does}
+The Files issue checks that a given file/folder, or set of files/folders have been removed.
 
 ### Use
+**Note:** If you are checking a group of Files, the second argument of FileIssue.setFiles is the "name" of the group, and will be displayed as "[groupname] files have been deleted"
 
 1. Download the latest version from the [releases](https://github.com/darklight-studios/FilesIssue/releases/) section
 2. Add DNCFilesIssue.jar to your DNC build path
