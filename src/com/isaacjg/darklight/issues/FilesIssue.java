@@ -34,7 +34,7 @@ public class FilesIssue extends Issue {
 
 	private File[] files;
 	
-	protected FilesIssue() {
+	public FilesIssue() {
 		super("File Issue", "[type] \"[name]\" has been deleted");
 	}
 
