@@ -42,6 +42,8 @@ public class FilesIssue extends Issue {
 		files = new File[] { file };
 		if (file.isDirectory()) {
 			setDescription(getDescription().replace("[type]", "Folder").replace("[name]", file.getName()));
+		} else {
+			setDescription(getDescription().replace("[type]", "File").replace("[name]", file.getName()));
 		}
 	}
 	
